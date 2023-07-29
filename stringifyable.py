@@ -1,3 +1,6 @@
+from abc import ABC
+
+
 class Stringifyable(ABC):
     def __str__(self):
         d = self.__dict__
